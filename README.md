@@ -1,5 +1,7 @@
 # LM723 Power Supply
 
+!["Schematic"](images/schematic.png "Schematic")
+
 So this is a linear power supply based on the LM723 IC. It utilizes the LM723 chip and a TIP35C transistor for voltage regulation. The TIP35 transistor generates significant heat, so it requires effective cooling — specifically a heatsink and ideally a fan, though a large heatsink alone may suffice.
 
 Resistor RV1 is used to adjust the output voltage.
